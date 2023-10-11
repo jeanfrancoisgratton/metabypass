@@ -1,0 +1,7 @@
+Package: metabypass
+Version: 1.000-0
+Architecture: amd64
+Maintainer: J.F.Gratton <jean-francois@famillegratton.net>
+Description: LaPresse publisher on FB
+Section: 
+Depends: 
