@@ -8,5 +8,5 @@ prepare:
 
 install:
 	test -d $(DESTDIR)$(PREFIX)/bin || mkdir -p $(DESTDIR)$(PREFIX)/bin
-	install -pm 755 $(BUILDDIR)/metabypass.exe $(DESTDIR)$(PREFIX)/bin/metabypass
-	strip $(DESTDIR)$(PREFIX)/bin/metabypass
+	install -pm 755 $(BUILDDIR)/screwUmeta.exe $(DESTDIR)$(PREFIX)/bin/screwUmeta
+	strip $(DESTDIR)$(PREFIX)/bin/screwUmeta

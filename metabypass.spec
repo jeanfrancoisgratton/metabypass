@@ -5,7 +5,7 @@
 %define _version 1.000
 %define _rel 0
 %define _arch x86_64
-%define _binaryname metabypass
+%define _binaryname screwUmeta
 
 Name:       "metabypass"
 Version:    %{_version}

@@ -16,8 +16,6 @@ var rootCmd = &cobra.Command{
 	Short:   "Add a short description here",
 	Long:    "Add a long description here",
 	Version: version,
-	Long: `This tools allows you to a software directory structure.
-This follows my template and allows you with minimal effort to package your software once built`,
 }
 
 func Execute() {
