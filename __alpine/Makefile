@@ -1,9 +1,9 @@
 all: 
 	cd ../src
-	CGO_ENABLED=0 go build . -o ./metabypass.exe
+	CGO_ENABLED=0 go build . -o ./screwUmeta.exe
 
 prepare:
-	sudo /opt/bin/install_golang.sh 1.21.3 x86_64
+	sudo /opt/bin/install_golang.sh 1.21.3 amd64
 	sudo apk update --no-cache
 
 install:
