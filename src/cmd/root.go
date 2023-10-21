@@ -21,7 +21,7 @@ All you need is to copy that URL in the clipboard, and run this software with a 
 Now, to access it from the blocking website, you give the full webserver URL of the page you've just generated, and you're done.
 
 This follows my template and allows you with minimal effort to package your software once built`,
-	Version: "1.00.00-0 (2023.10.21)",
+	Version: "1.01.00-0 (2023.10.21)",
 }
 
 var generateCmd = &cobra.Command{
