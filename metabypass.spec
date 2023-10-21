@@ -54,6 +54,14 @@ install -Dpm 0755 %{_sourcedir}/%{_binaryname} %{buildroot}%{_bindir}/%{_binaryn
 
 
 %changelog
+* Sat Oct 21 2023 RPM Builder <builder@famillegratton.net> 1.01.00-0
+- Disabled CSS (jean-francois@famillegratton.net)
+- Added info on go generate (jean-francois@famillegratton.net)
+- Changed package name (builder@famillegratton.net)
+- APK building script fixes (builder@famillegratton.net)
+- Added newline to Debian's control file (builder@famillegratton.net)
+- Permission fixes (builder@famillegratton.net)
+
 * Sat Oct 21 2023 RPM Builder <builder@famillegratton.net> 1.00.00-0
 - new package built with tito
 
