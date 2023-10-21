@@ -1,20 +1,20 @@
 %define debug_package   %{nil}
 %define _build_id_links none
-%define _name "metabypass"
+%define _name metabypass
 %define _prefix /opt
 %define _version 1.00.00
 %define _rel 0
 %define _arch x86_64
 %define _binaryname screwUmeta
 
-Name:       "metabypass"
+Name:       metabypass
 Version:    %{_version}
 Release:    %{_rel}
 Summary:    News medias publisher on Meta
 
-Group:      
+Group:      misc
 License:    GPL2.0
-URL:        
+URL:        https://github.com/jeanfrancoisgratton/metabypass
 
 Source0:    %{name}-%{_version}.tar.gz
 BuildArchitectures: x86_64
@@ -54,3 +54,6 @@ install -Dpm 0755 %{_sourcedir}/%{_binaryname} %{buildroot}%{_bindir}/%{_binaryn
 
 
 %changelog
+* Sat Oct 21 2023 RPM Builder <builder@famillegratton.net> 1.00.00-0
+- new package built with tito
+
