@@ -19,3 +19,11 @@ All you need to, then is:
 3. so, you run: `screwUmeta generate /var/www/html/my-redirect.html https://my-news-site.com/my-article.html`
 4. now, you publish that news article, on that social media platform with the following URL (according to our examples):<br>
 https://my-server.com/my-redirect.html ; it will redirect to https://my-news-site.com/my-article.html
+
+
+<H2>Inside the tool</H2>
+This tool is quite simple in its idea, but uses some involved ideas:
+- a file generator, well, generates an html (and css) file out of templates.
+- those templates are located in src/assets/
+- you cannot just `go build` the tool. Have a look at src/build.sh
+
