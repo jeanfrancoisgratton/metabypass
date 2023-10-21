@@ -5,5 +5,11 @@ OUTPUT=/opt/bin
 if [ "$#" -gt 0 ]; then
     OUTPUT=$1
 fi
-go build -o ${OUTPUT}/metabypass .
+
+echo "Embedding resources..."
+cd templates && rm -f assets.go
+go generate
+cd ..
+echo "Building binary..."
+go build -o ${OUTPUT}/screwUmeta .
 

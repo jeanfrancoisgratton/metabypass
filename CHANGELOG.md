@@ -1,6 +1,6 @@
-| Release  | Date       | Comments             |
-|----------|------------|----------------------|
-| 1.000    | 2023.xx.yy | Initial version.     |
+| Release | Date       | Comments             |
+|---------|------------|----------------------|
+| 1.00.00 | 2023.10.21 | Initial version.     |
 
 
 

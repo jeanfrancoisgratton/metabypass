@@ -15,8 +15,9 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
-.idea/
+# We include .idea/ , as some pre-build scripts run out of it
 _SCRATCHPAD/
+samples/
 
 
 *.tar

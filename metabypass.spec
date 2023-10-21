@@ -10,7 +10,7 @@
 Name:       "metabypass"
 Version:    %{_version}
 Release:    %{_rel}
-Summary:    LaPresse publisher on FB
+Summary:    News medias publisher on Meta
 
 Group:      
 License:    GPL2.0
@@ -23,7 +23,7 @@ BuildRequires: gcc
 #Obsoletes: vmman1 > 1.140
 
 %description
-LaPresse publisher on FB
+News medias publisher on Meta
 
 %prep
 %autosetup
