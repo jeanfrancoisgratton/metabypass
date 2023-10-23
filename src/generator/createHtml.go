@@ -9,15 +9,11 @@ import (
 	"metabypass/templates"
 	"os"
 	"path/filepath"
-	"strings"
 )
 
 func Create(htmlfile, targetURL string) error {
 	var err error
 
-	if !strings.HasSuffix(".html", htmlfile) && !strings.HasSuffix(".htm", htmlfile) {
-		htmlfile += ".html"
-	}
 	// We need to ensure that the directory exists
 	if err := os.MkdirAll(filepath.Dir(htmlfile), os.ModePerm); err != nil {
 		return err
