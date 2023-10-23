@@ -54,6 +54,9 @@ install -Dpm 0755 %{_sourcedir}/%{_binaryname} %{buildroot}%{_bindir}/%{_binaryn
 
 
 %changelog
+* Sun Oct 22 2023 RPM Builder <builder@famillegratton.net> 1.02.00-0
+- Removed buggy html extension check (jean-francois@famillegratton.net)
+
 * Sat Oct 21 2023 RPM Builder <builder@famillegratton.net> 1.01.00-0
 - Disabled CSS (jean-francois@famillegratton.net)
 - Added info on go generate (jean-francois@famillegratton.net)
